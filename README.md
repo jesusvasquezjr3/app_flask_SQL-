@@ -49,6 +49,10 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno local.
     pip install -r requirements.txt
     ```
 4.  **Configura la Base de Datos Supabase**.
+
+      ![SupabaseGIF](static/supabase.gif)
+    ***Figura 1.** Table Editor en **Supabase***
+      
       * Ve a tu panel de **Supabase** y crea un nuevo proyecto.
       * Dirígete a **Project Settings \> Database**.
       * Encuentra tu **Connection string** (URI) y cópiala.
@@ -70,6 +74,15 @@ python app.py
 ```
 
 La aplicación creará las tablas de la base de datos automáticamente al iniciar y estará disponible en `http://127.0.0.1:5000`.
+
+## Resultados
+
+![Tabla](static/supabase.png)
+***Figura 2.** Base de Datos **Supabase***
+
+![Visualizacion](static/usuarios.png)
+***Figura 3.** Visualización de Usuarios*
+
 
 ### Endpoints Disponibles
 
