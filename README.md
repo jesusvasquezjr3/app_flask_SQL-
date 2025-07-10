@@ -1,10 +1,10 @@
 # 📝 Flask y PostgreSQL con Supabase
 
-Este es un proyecto de ejemplo que demuestra cómo construir una aplicación web simple con **Flask** que se conecta a una base de datos **PostgreSQL** alojada en **Supabase**. [cite\_start]La aplicación permite agregar y listar usuarios, mostrando una integración básica de backend y base de datos.
+Este es un proyecto de ejemplo que demuestra cómo construir una aplicación web simple con **Flask** que se conecta a una base de datos **PostgreSQL** alojada en **Supabase**. La aplicación permite agregar y listar usuarios, mostrando una integración básica de backend y base de datos.
 
 ## 📂 Estructura del Proyecto
 
-[cite\_start]El proyecto sigue una organización modular para separar la lógica, las plantillas y los archivos estáticos. 
+El proyecto sigue una organización modular para separar la lógica, las plantillas y los archivos estáticos.
 
 ```
 mi_flask_app/
@@ -19,10 +19,10 @@ mi_flask_app/
 └── .gitignore
 ```
 
-  * [cite\_start]**`app.py`**: Archivo principal que ejecuta la aplicación.
-  * [cite\_start]**`models.py`**: Define los modelos de la base de datos para SQLAlchemy.
-  * [cite\_start]**`routes.py`**: Contiene las rutas y la lógica de las vistas.
-  * [cite\_start]**`config.py`**: Almacena la configuración de la aplicación, como la cadena de conexión a la base de datos.
+  * **`app.py`**: Archivo principal que ejecuta la aplicación.
+  * **`models.py`**: Define los modelos de la base de datos para SQLAlchemy.
+  * **`routes.py`**: Contiene las rutas y la lógica de las vistas.
+  * **`config.py`**: Almacena la configuración de la aplicación, como la cadena de conexión a la base de datos.
 
 ## 🚀 Instalación y Configuración
 
@@ -69,9 +69,9 @@ Con el entorno virtual activado y la configuración lista, inicia el servidor de
 python app.py
 ```
 
-[cite\_start]La aplicación creará las tablas de la base de datos automáticamente al iniciar [cite: 114, 115, 119] y estará disponible en `http://127.0.0.1:5000`.
+La aplicación creará las tablas de la base de datos automáticamente al iniciar y estará disponible en `http://127.0.0.1:5000`.
 
 ### Endpoints Disponibles
 
-  * [cite\_start]**Agregar un usuario**: `http://127.0.0.1:5000/add_user/<nombre>/<email>`
-  * [cite\_start]**Listar usuarios**: `http://127.0.0.1:5000/usuarios`
+  * **Agregar un usuario**: `http://127.0.0.1:5000/add_user/<nombre>/<email>`
+  * **Listar usuarios**: `http://127.0.0.1:5000/usuarios`
