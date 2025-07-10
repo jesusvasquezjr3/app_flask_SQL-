@@ -7,7 +7,7 @@ Este es un proyecto de ejemplo que demuestra cómo construir una aplicación web
 El proyecto sigue una organización modular para separar la lógica, las plantillas y los archivos estáticos.
 
 ```
-mi_flask_app/
+app_flask_SQL-/
 ├── app.py
 ├── models.py
 ├── routes.py
@@ -30,8 +30,8 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno local.
 
 1.  **Clona el repositorio** en tu computadora.
     ```bash
-    git clone <URL-DE-TU-REPOSITORIO>
-    cd <nombre-del-repositorio>
+    git clone https://github.com/jesusvasquezjr3/app_flask_SQL-
+    cd app_flask_SQL-
     ```
 2.  **Crea y activa un entorno virtual**.
     ```bash
